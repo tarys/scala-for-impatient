@@ -8,6 +8,7 @@ package object random {
 
   def nextInt(): Int = {
     next = (next * a + b) % math.pow(2, n).toInt
+    next
   }
 
   def nextDouble(): Double = nextInt()
